@@ -72,3 +72,57 @@ as Total_Sales
 FROM [LITA Capstone Datasets]
 GROUP BY Product
 ```
+Query 2: Number of Sales Transactions by Region
+```SQL
+SELECT Region,SUM(Quantity)
+as Total_Sales
+FROM[LITA Capstone Datasets]
+GROUP BY Region
+```
+Query 3: Highest-selling Product by Total Sales Value
+```SQL
+SELECT Product,SUM(Quantity)
+as Total_Sales
+FROM[LITA Capstone Datasets]
+GROUP BY Product
+Order By Total_Sales Desc
+```
+Query 4: Total Revenue per Product
+```  SQL
+SELECT Product,SUM(Quantity*UnitPrice)
+as Total_Revenue
+FROM[LITA Capstone Datasets]
+GROUP BY Product
+```
+Query 5: Monthly Sales Totals for Current Year
+```SQL
+SELECT OrderDate,
+SUM(Quantity) as Total_Sales
+FROM [dbo].[LITA Capstone Datasets]
+WHERE OrderDate = 2024
+GROUP BY OrderDate
+```
+Query 6: Top 5 Customers by Total Purchase Amount
+```SQL
+SELECT Top 5
+Customer_Id, SUM(Quantity) AS Total_Purchase
+FROM [dbo].[LITA Capstone Datasets]
+GROUP BY Customer_Id
+ORDER BY Total_Purchase DESC
+```
+QUERY 7: Percentage of Total Sales by Region
+```SQL
+SELECT Region, SUM(Revenue)/SUM(Quantity)*0.1 AS Percentage_of_Total_Sales
+FROM [dbo].[LITA Capstone Datasets]
+GROUP BY Region
+ORDER BY Percentage_of_Total_Sales
+```
+Query 8: Products with No Sales in Last Quarter
+```SQL
+SELECT Product,SUM(Quantity) AS Sales
+FROM [dbo].[LITA Capstone Datasets]
+WHERE MONTH(OrderDate)
+BETWEEN 10 AND 12
+GROUP BY Product
+HAVING SUM(Quantity)=0
+```
