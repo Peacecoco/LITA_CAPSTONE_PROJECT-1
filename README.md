@@ -56,7 +56,19 @@ This project employs a combination of data exploarion, SQL querying, and data ex
 - EXCEL PIVOT TABLE AND CHARTS Total sales by product
    - Total sales by product.
    - Total sales by region.
-   - Total sales by month. 
+   - Total sales by month.
+     
 - Calculated metrics:
    - Average sales per product.
    - Total revenue by region.
+ 
+### SQL Queries
+---
+Query 1: Total sales by Product Category.
+```SQL
+SELECT * FROM [dbo].[LITA Capstone Datasets]
+SELECT Product,SUM(Quantity)
+as Total_Sales
+FROM [LITA Capstone Datasets]
+GROUP BY Product
+```
