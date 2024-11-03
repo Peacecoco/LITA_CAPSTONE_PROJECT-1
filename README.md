@@ -18,7 +18,7 @@
 ---
 This project shows the analysis of the sales performance of LITA Capstone retail store. The analysis was carried out by exploring the sales data to uncover key insights such as top-selling products, regional performance, and monthly sales end.
 
-#Introduction
+##Introduction
 ---
 LITA Capstone retail store, a leading retail chain with multiple locations across the region, seeks to optimize its sales performance and improve customer engagement. With increasing competition in the market, the store's management recognizes the need for data-driven decision-making to stay ahead.
 
