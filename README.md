@@ -126,3 +126,34 @@ BETWEEN 10 AND 12
 GROUP BY Product
 HAVING SUM(Quantity)=0
 ```
+### PowerBI Dashboard
+---
+- Dashboard screenshots:
+   - Sales overview
+   - Top-performing Products
+   - Regional Breakdown
+- Description of visualizations and insights.
+
+### Insights and Recommendations
+---
+Insights:
+1. Product Performance
+    - Top-selling products:
+       - Hats
+       - Shoes
+       - Gloves
+       - Shirt
+2. Regional Sales Trends
+    - Regions with highest sales revenue: East(102500) and South(122500)
+    - Regions with lowest sales revenue: North(62500) and West(57500)
+
+Recommendations:
+- Short-Term (0-6 months):
+  1. Product Optimization
+      - Discontinue underperforming products
+      - Increase inventory of top-selling products
+      - Introduce new products in high-growth categories
+  2. Regional Sales Strategies
+      - Allocate targeted marketing budgets to high-growth regions.
+      - Adjust pricing strategies for regions with low sales revenue.
+      - Enhance customer engagement initiatives in key regions.
