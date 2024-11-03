@@ -11,3 +11,9 @@
 7. [Insights and Recommendations](#insights-and-recommendations)
 8. [Conclusion](#conclusion)
 9. [Appendices](#appendices)
+
+## Sales Performance Analysis for LITA Capstone Retail Store
+---
+## Project Overview
+---
+This project shows the analysis of the sales performance of LITA Capstone retail store. The analysis was carried out by exploring the sales data to uncover key insights such as top-selling products, regional performance, and monthly sales end.
