@@ -22,3 +22,17 @@ This project shows the analysis of the sales performance of LITA Capstone retail
 ---
 LITA Capstone retail store, a leading retail chain with multiple locations across the region, seeks to optimize its sales performance and improve customer engagement. With increasing competition in the market, the store's management recognizes the need for data-driven decision-making to stay ahead.
 
+- Problem Statement
+The store's current sales analysis process is manual, time-consuming, and limited in scope. The management team lacks a comprehensive understanding of sales trends, product performance, and regional variations, hindering strategic decision-making.
+
+- Project Objectives
+  1. Analyze sales data to identify key insights such as top-selling products, regional performance, and monthly sales trends.
+  2.   Develop a data driven framework for sales performance evaluation.
+  3.   Provide actionable insights to inform product optimization, regional sales strategies, and customer engagement initiatives.
+
+- Business Goals
+  1. Increase overall sales revenue by 10% within next quarter.
+  2. Improve product mix and optimize inventory management.
+  3. Enhance customer satisfaction and loyalty through targeted marketing initiatives.
+  4. Strengthen competitive positioning through data-driven decision-making.
+
